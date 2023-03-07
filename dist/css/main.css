@@ -1,0 +1,425 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+  height: 13vh;
+  background-color: #dfcfbc;
+}
+
+header img {
+  padding-top: 0.5vh;
+  height: 12vh;
+  width: 12vh;
+}
+
+header .user {
+  position: relative;
+  left: 22rem;
+  color: gray;
+}
+
+header .menu {
+  position: absolute;
+  right: 1rem;
+  color: gray;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 7vh;
+  background-color: #dfcfbc;
+  color: gray;
+}
+
+nav ul {
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.eins,
+.zwei,
+.drei {
+  border-right: 1px solid black;
+}
+
+.about {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ccbea3;
+}
+
+.l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.image {
+  z-index: 2;
+  background-color: blue;
+  width: 60%;
+  height: 40%;
+}
+
+.text {
+  z-index: 2;
+  background-color: yellow;
+  width: 60%;
+  height: 60%;
+}
+
+.shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150vh;
+  background-color: #ccbea3;
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  height: 90%;
+  width: 90%;
+  border-radius: 5%;
+}
+
+.page .item {
+  height: 15vh;
+  width: 50vw;
+  margin: 10%;
+  background-color: aqua;
+}
+
+footer {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  background-color: #dfcfbc;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  height: 30vh;
+  width: 100%;
+}
+
+footer .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer .mid {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 3vh;
+}
+
+footer .mid .div {
+  width: 10vw;
+  padding-top: 10px;
+}
+
+footer .mid .div h3 {
+  padding: 5px;
+}
+
+footer .mid .div h3 a {
+  color: gray;
+}
+
+footer .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+footer .right img {
+  height: 25vh;
+  width: 25vh;
+  padding-top: 5vh;
+}
+
+.set {
+  background-color: #ccbea3;
+}
+
+.set input {
+  padding: 5px;
+}
+
+.set h1 {
+  text-align: center;
+}
+
+.set button {
+  position: relative;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  padding: 1px 3px;
+  font-size: larger;
+}
+
+body {
+  width: 80vw;
+  margin: auto;
+}
+
+main #pic {
+  height: 80vh;
+  background-color: #ccbea3;
+}
+
+main #sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 175vh; /*調整了從80改為175*/
+}
+
+main #sec .intro {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #ccbea3;
+}
+
+main #sec .buy {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #ccbea3;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.cart {
+  position: fixed;
+  z-index: 9999;
+  right: calc(20vh);
+  bottom: 2vh;
+  border-radius: 50%;
+  background-color: red;
+  border: 0px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  height: 4rem;
+  width: 4rem;
+}
+
+.cart a {
+  color: white;
+}
+
+#shop {
+  height: 175vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ccbea3;
+}
+
+#shop .shop {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 60vh;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+#shop .shop form {
+  height: 50vh;
+  width: 80%;
+  border-radius: 3%;
+  margin: 10%;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+#shop .feed {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#shop .feed form {
+  height: 50vh;
+  width: 80%;
+  border-radius: 3%;
+  margin: 10%;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+#shop .feed form textarea {
+  margin-top: 5%;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 80%;
+  min-height: 80%;
+}
+/*# sourceMappingURL=main.css.map */
+/*
+這段是心民寫的 以下是商品介紹CSS 6/13
+*/
+.intro{
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+}
+.card{
+  height: 300px;
+  width: 900px;
+  border-radius: 6px;
+  padding-left: 30px;
+  padding-right: 45px;
+  margin-left: 130px;
+  left:50%;
+  background-color: rgb(252, 233, 209);
+}
+
+
+#buy_btn{
+  font-size: 16px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border: 0;
+  float: left;
+  border-radius: 6px;
+
+}
+.img{
+  height: 260px;
+  float: right;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+/* 購買鍵 */
+#buying_btn{
+  font-size: 16px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  width: 80px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border: 0;
+  float: left;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+/* 價格文字*/
+.price{
+  font-size: 30px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  color: orangered;
+}

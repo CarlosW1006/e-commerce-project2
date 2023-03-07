@@ -1,0 +1,62 @@
+body{
+    background-size: 100%;
+    background-image: url("../img/wood.jpg");
+    background-repeat: no-repeat;
+}
+header{
+    background-color:#FFC863 ;
+    padding-top: 15px;
+    
+}
+header h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    color: #A86E00 ;
+}
+.logo{
+    height: 175px;
+    float: left;
+}
+.loginframe{
+    width: 400px;
+    height: 280px;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "微軟正黑體";
+    background-color: #FFF7E8 ;
+
+}
+
+.loginbtn {
+    font-size: 16px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    width: 120px;
+    height: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color:#00CC00;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+    }
+
+.textfield {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px;
+    }
+

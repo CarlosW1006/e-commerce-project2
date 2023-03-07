@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+  height: 13vh;
+  background-color: #dfcfbc;
+}
+
+header img {
+  padding-top: 0.5vh;
+  height: 12vh;
+  width: 12vh;
+}
+
+header .user {
+  position: relative;
+  left: 22rem;
+  color: gray;
+}
+
+header .menu {
+  position: absolute;
+  right: 1rem;
+  color: gray;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 7vh;
+  background-color: #dfcfbc;
+  color: gray;
+}
+
+nav ul {
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.eins,
+.zwei,
+.drei {
+  border-right: 1px solid black;
+}
+
+.background {
+  background-color: #ccbea3;
+  height: 800px;
+}
+
+.background1 {
+  background-color:rgb(252, 233, 209);
+  height: 660px;
+  width: 1400px;
+  margin:0 auto;
+}
+
+.M1 {
+  float: left;
+  margin-left:130px;
+}
+
+.M2 {
+  float: right;
+  width: 700px;
+}
+
+footer {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  background-color: #dfcfbc;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  height: 30vh;
+  width: 100%;
+}
+
+footer .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer .mid {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 3vh;
+}
+
+footer .mid .div {
+  width: 10vw;
+  padding-top: 10px;
+}
+
+footer .mid .div h3 {
+  padding: 5px;
+}
+
+footer .mid .div h3 a {
+  color: gray;
+}
+
+footer .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+footer .right img {
+  height: 25vh;
+  width: 25vh;
+  padding-top: 5vh;
+}
+
+
+
+body {
+  width: 80vw;
+  margin: auto;
+}
+
+#buying_btn{
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border: 0;
+  float: left;
+  border-radius: 6px;
+  left: 50%;
+  margin-left: 270px;
+}

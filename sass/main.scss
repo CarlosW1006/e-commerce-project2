@@ -1,0 +1,89 @@
+        @import'config';
+        @import'head';
+        @import'about';
+        @import'cart';
+        @import'footer';
+        @import'user';
+        body {
+            width: 80vw;
+            margin: auto;
+        }
+        
+        main {
+            #pic {
+                height: 80vh;
+                background-color: $main-back-color;
+            }
+            #sec {
+                display: flex;
+                height: 80vh;
+                .intro {
+                    flex: 1;
+                    background-color: $main-back-color;
+                }
+                .buy {
+                    flex: 1;
+                    background-color: $main-back-color;
+                }
+            }
+        }
+        
+        a {
+            color: $head-font-color;
+            text-decoration: none;
+        }
+        
+        .cart {
+            position: fixed;
+            z-index: 9999;
+            right: calc(20vh);
+            bottom: 2vh;
+            border-radius: 50%;
+            background-color: red;
+            border: 0px;
+            font-size: 24px;
+            text-align: center;
+            color: white;
+            height: 4rem;
+            width: 4rem;
+            a {
+                color: white;
+            }
+        }
+        
+        #shop {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $main-back-color;
+            .shop {
+                flex: 1;
+                height: 60vh;
+                border-right: 0.5px solid rgba($color: #000000, $alpha: 0.5);
+                form {
+                    height: 50vh;
+                    width: 80%;
+                    border-radius: 3%;
+                    margin: 10%;
+                    border: 0.5px solid rgba($color: #000000, $alpha: 0.5);
+                }
+            }
+            .feed {
+                flex: 1;
+                form {
+                    height: 50vh;
+                    width: 80%;
+                    border-radius: 3%;
+                    margin: 10%;
+                    border: 0.5px solid rgba($color: #000000, $alpha: 0.5);
+                    textarea {
+                        margin-top: 5%;
+                        max-width: 100%;
+                        min-width: 100%;
+                        max-height: 80%;
+                        min-height: 80%;
+                    }
+                }
+            }
+        }

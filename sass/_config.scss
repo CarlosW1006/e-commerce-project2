@@ -1,0 +1,21 @@
+//
+$head-back-color:#dfcfbc;
+$head-font-color:gray;
+//
+$nav-back-color:brown;
+$nav-font-color:lime;
+//
+$main-back-color:#ccbea3;
+$main-font-color:orange;
+//
+$foot-back-color:$head-back-color;
+$foot-font-color:$head-font-color;
+//
+$cart-back-color:purple;
+$cart-font-color:silver;
+//
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

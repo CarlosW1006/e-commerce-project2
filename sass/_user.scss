@@ -1,0 +1,17 @@
+.set {
+    input {
+        padding: 5px;
+    }
+    background-color: $main-back-color;
+    h1 {
+        text-align: center;
+    }
+    button {
+        position: relative;
+        margin: 0;
+        left: 50%;
+        top: 50%;
+        padding: 1px 3px;
+        font-size: larger;
+    }
+}

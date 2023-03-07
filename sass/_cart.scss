@@ -1,0 +1,23 @@
+    .shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150vh;
+        background-color: $main-back-color;
+    }
+    
+    .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        height: 90%;
+        width: 90%;
+        border-radius: 5%;
+        .item {
+            height: 15vh;
+            width: 50vw;
+            margin: 10%;
+            background-color: aqua;
+        }
+    }

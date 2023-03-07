@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <!--標頭-->
+        <div class="logo-btn">
+            <a href="index.html"><img src="img/LOGO.png" alt="something went wrong"></a>
+        </div>
+        <div class="user">
+            <span><a href="user.html">用戶資料</a></span>
+        </div>
+        <div class="menu">
+            <span class="login-btn"><a href="login.html"> login</a></span>/
+            <span class="reg-btn"><a href="register.html"> register</a></span>
+        </div>
+    </header>
+    <!--選單-->
+    <nav>
+        <ul class="eins"><a href="index.html"> Home</a></ul>
+        <ul class="zwei"><a href="#sec">Product</a></ul>
+        <ul class="drei"><a href="#about__flex">Members</a></ul>
+        <ul class="vier"><a href="#shop">Shop</a></ul>
+    </nav>
+    <!--主頁-->
+    <main>
+        <!--首頁-->
+        <div id="pic"></div>
+        <hr>
+        <!--介紹-->
+        <div id="sec">
+            <div class="intro">
+                <div class="card">
+                    <br>
+                    <input type="button" value="購買" id="buy_btn">&nbsp;<span>原味雞肉</span>
+                    <img src="img/no1.png" class="img">
+                    <div class="price"><p>價格：150</p></div>
+                </div>
+                <br>
+                <div class="card">
+                    <br>
+                    <input type="button" value="購買" id="buy_btn">&nbsp;<span>紫蘇雞肉</span>
+                    <img src="img/no2.png" class="img">
+                    <div class="price"><span>價格：150</span></div>
+                </div>
+                <br>
+                <div class="card">
+                    <br>
+                    <input type="button" value="購買" id="buy_btn">&nbsp;<span>雞胗片</span>
+                    <img src="img/no3.png" class="img">
+                    <div class="price"><span>價格：150</span></div>
+                </div>
+                <br>
+                <div class="card">
+                    <br>
+                    <input type="button" value="購買" id="buy_btn">&nbsp;<span>鮪魚雞丁</span>
+                    <img src="img/no4.png" class="img">
+                    <div class="price"><span>價格：150</span></div>
+                   
+                </div>
+                <br>
+                <div class="card">
+                    <br>
+                    <input type="button" value="購買" id="buy_btn">&nbsp;<span>牛筋片</span>
+                    <img src="img/no5.png" class="img">
+                    <div class="price"><span>價格：150</span></div>
+                    <br>
+                </div>
+            <div class="buy"></div>
+        </div>
+        <hr>
+        <!--購物車-->
+        <div class="cart"></div>
+        <button class="cart"><a href="#shop" ><i class="fas fa-shopping-cart"></i></a></button>
+        <!--組員介紹-->
+        <div id="about__flex">
+            <div class="about">
+                <div class="l">
+                    <div class="image"></div>
+                    <div class="text"></div>
+                </div>
+                <div class="r">
+                    <div class="image"></div>
+                    <div class="text"></div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="l">
+                    <div class="image"></div>
+                    <div class="text"></div>
+                </div>
+                <div class="r">
+                    <div class="image"></div>
+                    <div class="text"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--購買單＆評分意見單 form action="送到哪裡"-->
+        <div id="shop">
+            <div class="shop">
+                <form action="#">
+                    <h1>訂單</h1>
+                    <h2>原味雞肉</h2>
+                    <select name="numbers" class="choose">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    </select>
+                    <h2>紫蘇雞肉</h2>
+                    <select name="numbers" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        </select>
+                    <h2>鮭魚雞丁</h2>
+                    <select name="numbers" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        </select>
+                    <h2>牛筋片</h2>
+                    <select name="numbers" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        </select>
+                    <h2>雞胗</h2>
+                    <select name="numbers" class="choose">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        </select>
+                        <br>
+                        <br>
+                    <input type="submit" value="送出" id="buying_btn">
+                </form>
+
+            </div>
+            <div class="feed">
+                <form action="#">
+                    <legend>
+                        <h1>給予我們意見吧！</h1>
+                        <textarea name="" id="feedback" cols="30" rows="10">寫點東西給我們吧！</textarea>
+                        <input type="submit" value="送出" id="buying_btn">
+                    </legend>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!--footer-->
+        <!--左邊（目前留白）-->
+        <div class="left"></div>
+        <!--中間 內容-->
+        <div class="mid">
+            <div class="div 1">
+                <h2>Contact</h2>
+                <h3><a href="">Facebook</a></h3>
+                <h3>
+                    <a href=""> Instagram</a></h3>
+                <h3>
+                    <a href=""> Line</a></h3>
+            </div>
+            <div class="div 2">
+                <h2>Product</h2>
+                <h3>
+                    <a href="">Pricing</a></h3>
+                <h3>
+                    <a href="">Feature</a></h3>
+                <h3>
+                    <a href="">Feedback</a></h3>
+            </div>
+            <div class="div 3">
+                <h2>Help</h2>
+                <h3>
+                    <a href="">FAQ</a></h3>
+                <h3>
+                    <a href="">Learn More</a></h3>
+            </div>
+            <div class="div 4">
+                <h2>Company</h2>
+                <h3>
+                    <a href="">About Us</a></h3>
+            </div>
+        </div>
+        <!--右邊 logo-->
+        <div class="right"><img src="img/LOGO.png" alt="something went wrong"></div>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+<script src="https://kit.fontawesome.com/c796d8845b.js" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,36 @@
+#about {}
+
+.about {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: $main-back-color;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.r {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.image {
+    z-index: 2;
+    background-color: blue;
+    width: 60%;
+    height: 40%;
+}
+
+.text {
+    z-index: 2;
+    background-color: yellow;
+    width: 60%;
+    height: 60%;
+}
